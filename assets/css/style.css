@@ -486,7 +486,7 @@ section {
   display: block;
   width: 60px;
   height: 2px;
-  background: #eb5d1e;
+ 
   bottom: 0;
   left: calc(50% - 30px);
 }
@@ -534,16 +534,17 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  padding: 30px;
-  position: relative;
-  overflow: hidden;
-  margin: 0  0 40px 0;
-  background: #fff;
-  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
-  transition: all 0.3s ease-in-out;
-  border-radius: 15px;
-  text-align: center;
-  border-bottom: 3px solid #fff;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 40px 0;
+    background: rgba(255, 255, 255, 0.15);
+
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+    text-align: center;
+    border-bottom: 3px solid #fff;
 }
 
 .services .icon-box:hover {
@@ -766,7 +767,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: #fff;
+ 
   padding: 60px 0;
 }
 

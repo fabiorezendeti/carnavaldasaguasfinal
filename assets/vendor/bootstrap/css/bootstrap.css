@@ -6047,6 +6047,11 @@ a.close.disabled {
   border-top-right-radius: calc(0.3rem - 1px);
 }
 
+    .modal-header.primary {
+        color: #fff;
+        background-color: #446fb2;
+        border-color: #446fb2;
+    }
 .modal-header .close {
   padding: 1rem 1rem;
   margin: -1rem -1rem -1rem auto;
